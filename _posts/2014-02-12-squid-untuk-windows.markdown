@@ -128,7 +128,7 @@ jika ada pertanyaan lebih lanjut silakan main saja ke forum berikut [http://www.
 Bagi yang bermasalah dengan cache youtube, pastikan saat di tes tidak menggunakan addon **ADBLOCK PLUS** di browsernya.
 Jika Menggunakan addon Adblock Plus pastikan filter yang terpasang **HANYA** `abpindo + easylist`. jika ada filter selain itu kemungkinan ga' tercache
 
-**Tambahin Konfigurasi**
+**Tambahan Konfigurasi**
 Bagi yang mengalami **PB DC** bisa ditambah konfigurasi berikut :
 
 - untuk bagian `Port`
