@@ -2,16 +2,21 @@
 title: Techshoot
 email: Rh354@hackermail.com
 description: "Just an Ordinary Blog!"
-url: ""
+url: "http://techshoot.org"
 baseurl: /blog
+
 author: techshoot
 twitter_username: Rh354
-github_username:  Rh354
-facebook_username:  CupuLegendaris
+github_username: Rh354
+facebook_username: CupuLegendaris
 disqus: indolini
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink:  /:categories/:title
 paginate: 8
 exclude: ["node_modules"]
+
+sass:
+compressed: true
