@@ -38,7 +38,7 @@ namun jika tetap ingin melakukan secara manual berikut langkahnya :
 
 drive yang digunakan untuk `cache log` squid dalam artikel ini adalah `drive D` dan jika ingin diganti silakan mengganti bagian **cache_dir,coredump_dir,access_log,cache_log** di `squid.conf`.
 
-di dalam artikel ini besarnya squid cache adalah **6 Gb (6000)** silakan disesuaikan dengan kondisi masing - masing dan mungkin link [cache dir di squid](/cache-dir-di-squid) dapat membantu
+di dalam artikel ini besarnya squid cache adalah **6 Gb (6000)** silakan disesuaikan dengan kondisi masing - masing dan mungkin link [cache dir di squid]({{site.baseurl}}{% post_url 2012-06-30-cache-dir-di-squid %}) dapat membantu
 
 {% gist Rh354/7dd06d8ff27fc3f3bde9 %}
 

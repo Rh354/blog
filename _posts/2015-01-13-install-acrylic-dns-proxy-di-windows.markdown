@@ -7,7 +7,7 @@ categories: tutorial
 tags: [windows, tutorial, dns]
 fullview: false
 ---
-Di artikel sebelumnya menjelaskan tentang instalasi **[unbound]({{site.baseurl}}{% post_url 2012-06-30-install-unbound-di-windows %})** dan **[BIND]({% post_url 2014-10-03-install-bind-di-windows %})** artikel kali ini membahas tentang instalasi Acrylic DNS Proxy di windows untuk tujuan personal use aja, bukan di pakai di network (untuk saat ini). instalasi ini telah diuji di Windows 7 64bit dan berjalan dengan sukses hingga artikel ini di tulis.
+Di artikel sebelumnya menjelaskan tentang instalasi **[unbound]({{site.baseurl}}{% post_url 2012-06-30-install-unbound-di-windows %})** dan **[BIND]({{site.baseurl}}{% post_url 2014-10-03-install-bind-di-windows %})** artikel kali ini membahas tentang instalasi Acrylic DNS Proxy di windows untuk tujuan personal use aja, bukan di pakai di network (untuk saat ini). instalasi ini telah diuji di Windows 7 64bit dan berjalan dengan sukses hingga artikel ini di tulis.
 
 Berikut langkah - langkahnya :
 
@@ -48,7 +48,7 @@ kalau sudah di restart servicesnya via **services.msc**
 - agar bisa jalan di startup lakukan langkah berikut
 ![startup proxy](http://s6.postimg.org/5uasf2ce9/startup_dns.png)
 
-untuk testing bisa melakukan **[dig]({% post_url 2012-06-30-dig-di-windows %})** dengan perintah berikut
+untuk testing bisa melakukan **[dig]({{site.baseurl}}{% post_url 2012-06-30-dig-di-windows %})** dengan perintah berikut
 
 {% highlight ruby %}
 dig @127.0.0.1 kaskus.co.id

@@ -95,4 +95,4 @@ $ sudo unbound-control stats
 
 klo ada kesalahan mohon maaf yah soalnya nubi baru mempelajari unbound selama 1 hari itupun dengan modal nekat trial dan error
 
-untuk slackware bisa di link [berikut]({% post_url 2012-06-29-compile-unbound-di-slackware %})
+untuk slackware bisa di link [berikut]({{site.baseurl}}{% post_url 2012-06-29-compile-unbound-di-slackware %})

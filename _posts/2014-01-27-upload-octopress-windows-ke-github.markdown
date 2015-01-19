@@ -79,4 +79,4 @@ jika rake deploy ada error dengan tulisan `git config --global user.email "your.
 git config --global user.email "techshoot@nubi.com" #silakan ganti techshoot@nubi.com menjadi mail yang anda daftarkan di github anda pada saat pembuatan account
 {% endhighlight %}
 
-selanjutnya jika ingin merubah domain github, silakan simak artikel berikut [Ubah Domain Github Menjadi Domain Sendiri](/ubah-domain-github-menjadi-domain-sendiri/)
+selanjutnya jika ingin merubah domain github, silakan simak artikel berikut [Ubah Domain Github Menjadi Domain Sendiri]({{site.baseurl}}{% post_url 2014-01-27-ubah-domain-github-menjadi-domain-sendiri %})

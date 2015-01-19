@@ -7,7 +7,7 @@ categories: tutorial
 tags: [linux, tutorial, nagios]
 fullview: false  
 ---
-Lanjutan dari artikel sebelumnya yaitu [menambah plugin traceroute di nagios]({% post_url 2014-01-29-menambah-plugin-traceroute-di-nagios %}), kali ini via `plugin nrpe` nagios, casenya adalah ada 2 link internet, link pertama dapat dihandle oleh nagios dan link kedua ada di router kedua dan si nagios tidak ada akses ke link kedua. namun di salah satu server yang dimonitoring ada akses untuk link kedua tersebut. setelah mencoba sana sini akhirnya diputuskan untuk mencoba traceroute via nrpe nagios di server lain.
+Lanjutan dari artikel sebelumnya yaitu [menambah plugin traceroute di nagios]({{site.baseurl}}{% post_url 2014-01-29-menambah-plugin-traceroute-di-nagios %}), kali ini via `plugin nrpe` nagios, casenya adalah ada 2 link internet, link pertama dapat dihandle oleh nagios dan link kedua ada di router kedua dan si nagios tidak ada akses ke link kedua. namun di salah satu server yang dimonitoring ada akses untuk link kedua tersebut. setelah mencoba sana sini akhirnya diputuskan untuk mencoba traceroute via nrpe nagios di server lain.
 
 **asumsinya adalah plugin nrpe sudah berfungsi di server yang akan dijadikan monitoring traceroute.**
 

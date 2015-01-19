@@ -9,7 +9,7 @@ fullview: false
 ---
 
 
-Dig adalah sebuah tools untuk melihat query dari sebuah DNS yang sedang dipakai. contoh ketika memakai **[unbound]({% post_url 2012-06-30-install-unbound-di-windows %})** atau **[BIND]({% post_url 2014-10-03-install-bind-di-windows %})** di windows
+Dig adalah sebuah tools untuk melihat query dari sebuah DNS yang sedang dipakai. contoh ketika memakai **[unbound]({{site.baseurl}}{% post_url 2012-06-30-install-unbound-di-windows %})** atau **[BIND]({{site.baseurl}}{% post_url 2014-10-03-install-bind-di-windows %})** atau **[acrylic dns proxy]({{site.baseurl}}{% post_url 2015-01-13-install-acrylic-dns-proxy-di-windows %})** di windows
 
 Ketika melakukan pegecekan DNS/IP suatu domain, di keluarga *NIX biasanya bisa langsung di pakai misal pakai aplikasi dig. 
 

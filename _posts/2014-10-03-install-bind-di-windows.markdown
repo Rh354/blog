@@ -4,11 +4,11 @@ title: "Install BIND di windows"
 date: 2014-10-03 10:25:53 +0700
 comments: true
 categories: tutorial
-tags: [linux, tutorial, dns]
+tags: [windows, tutorial, dns]
 fullview: false
 ---
 Sudah lama ga' nulis, ini juga sempetin waktu sejenak buat nulis..hehe..
-oke deh jika sebelumnya sudah di post artikel tentang **[unbound]({% post_url 2012-06-30-install-unbound-di-windows %})** artikel kali ini membahas tentang instalasi BIND di windows untuk tujuan personal use aja, bukan di pakai di network (untuk saat ini). instalasi ini telah diuji di Windows 7 64bit dan berjalan dengan sukses hingga artikel ini di tulis.
+oke deh jika sebelumnya sudah di post artikel tentang **[unbound]({{site.baseurl}}{% post_url 2012-06-30-install-unbound-di-windows %})** artikel kali ini membahas tentang instalasi BIND di windows untuk tujuan personal use aja, bukan di pakai di network (untuk saat ini). instalasi ini telah diuji di Windows 7 64bit dan berjalan dengan sukses hingga artikel ini di tulis.
 
 Berikut langkah - langkahnya :
 

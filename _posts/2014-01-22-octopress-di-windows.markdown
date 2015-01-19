@@ -7,7 +7,7 @@ fullview: false
 categories: tutorial
 tags: [tutorial,windows, octopress]
 ---
-sebelum melakukan setup octopress di windows alangkah baiknya jika menginstall python terlebih dahulu. untuk instalasinya dapat di cek melalui link berikut **[ini]({% post_url 2014-01-22-install-python-di-windows-7 %})**. ini dilakukan buat meminimalisir error tentang python nantinya.
+sebelum melakukan setup octopress di windows alangkah baiknya jika menginstall python terlebih dahulu. untuk instalasinya dapat di cek melalui link berikut **[ini]({{site.baseurl}}{% post_url 2014-01-22-install-python-di-windows-7 %})**. ini dilakukan buat meminimalisir error tentang python nantinya.
 
 jika sudah maka kita perlu menyiapkan alat - alat perang lainnya, yaitu :
 
@@ -50,4 +50,4 @@ simple_search: http://google.com/search
 description: Tips and Trik, tutorial
 {% endhighlight %}
 
-nah jika sudah selesai hasil generatenya nanti yang berupa **.html** di folder **public** dan bisa langsung diupload ke hostingan masing - masing atau bisa juga di upload ke github sebagai free hosting, cara setup dan uploadnya dapat dilihat di link [upload octopress windows ke github](/upload-octopress-windows-ke-github/).
+nah jika sudah selesai hasil generatenya nanti yang berupa **.html** di folder **public** dan bisa langsung diupload ke hostingan masing - masing atau bisa juga di upload ke github sebagai free hosting, cara setup dan uploadnya dapat dilihat di link [upload octopress windows ke github]({{site.baseurl}}{% post_url 2014-01-27-upload-octopress-windows-ke-github %}).

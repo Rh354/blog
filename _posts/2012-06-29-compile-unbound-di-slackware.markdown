@@ -107,6 +107,7 @@ atau
 {% endhighlight %}
 
 klo udah mari kita buat startup skripnya
+
 {% highlight ruby %}
 # vi /etc/rc.d/rc.local
 {% endhighlight %}

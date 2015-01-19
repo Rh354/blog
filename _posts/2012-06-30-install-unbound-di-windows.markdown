@@ -9,7 +9,7 @@ fullview: false
 ---
 
 
-sebelumnya gw udah memposting mengenai cara compile dan installasi unbound di **[slackware]({% post_url 2012-06-29-compile-unbound-di-slackware %})** dan **[ubuntu]({% post_url 2012-06-30-install-unbound-di-ubuntu %})**. sekarang saatnya instalasi di windows
+sebelumnya gw udah memposting mengenai cara compile dan installasi unbound di **[slackware]({{site.baseurl}}{% post_url 2012-06-29-compile-unbound-di-slackware %})** dan **[ubuntu]({{site.baseurl}}{% post_url 2012-06-30-install-unbound-di-ubuntu %})**. sekarang saatnya instalasi di windows
 
 berikut caranya :
 
@@ -74,7 +74,7 @@ langkah selanjutnya :
 
 1. DNS diatas blm ditambahkan dengan **dns nawala** 180.131.144.144; 180.131.145.145
 2. jika ingin mengganti DNS maupun menambah silahkan merubah atau menambah di bagian forwarder zone
-3. untuk melalukan pengecekan silahkan melakukan dig. klo belum punya silahkan **[kemari]({% post_url 2012-06-30-dig-di-windows %})**
+3. untuk melalukan pengecekan silahkan melakukan dig. klo belum punya silahkan **[kemari]({{site.baseurl}}{% post_url 2012-06-30-dig-di-windows %})**
 4. bagi pemakai squid silahkan ditambahkan confignya dengan :
 
 {% highlight ruby %}

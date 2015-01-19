@@ -8,7 +8,7 @@ categories: tutorial
 tags: [tutorial, linux]
 ---
 
-Berawal dari tulisan seorang suhu yang ada di blog [http://blog.mahirrudin.com/](http://blog.mahirrudin.com/) akhirnya nubi ini memberanikan untuk mencoba menginstall octopress ini menggantikan wordpress. baik kita mulai saja PDKT dengan octopressnya.
+Berawal dari tulisan seorang suhu yang ada di blog [http://mahirrudin.com/](http://mahirrudin.com/) akhirnya nubi ini memberanikan untuk mencoba menginstall octopress ini menggantikan wordpress. baik kita mulai saja PDKT dengan octopressnya.
 
 >**Octopress** adalah framework yang dibuat oleh Brandon Mathis untuk Jekyll, dirancang untuk website statis pada Github Pages. Untuk dapat “Blogging” ( menulis pada Jekyll ) diperlukan pemahaman akan CSS3, HTML5 serta Javascript. Namun, dengan octopress anda tidak perlu pemahaman khusus karena semua bisa di generate secara otomatis. 
 
@@ -17,11 +17,13 @@ begitulah singkatnya kira - kira. namun karena memakai sistem ruby maka kita per
 **Instal Dependenciesnya :**
 
 **Untuk ubuntu**
+
 {% highlight ruby %}
 $ sudo apt-get install bash curl git-core build-essential bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake
 {% endhighlight %}
 
 **Untuk CentOS/RedHat**
+
 {% highlight ruby %}
 $ sudo yum groupinstall "Development Tools" && sudo yum install bison curl bash readline-devel zlib zlib-devel openssl openssl-devel libyaml git python-setuptools python-devel
 {% endhighlight %}
