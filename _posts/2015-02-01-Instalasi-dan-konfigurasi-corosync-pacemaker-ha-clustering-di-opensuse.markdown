@@ -7,10 +7,10 @@ categories: tutorial
 tags: [linux, tutorial]
 fullview: false
 ---
-Corosync merupakan bagian dari pacemaker, mirip seperti heartbeat. Fungsinya adalah sebagai *loadbalancer* dan *checker* pada *cluster environment*. OpenSUSE 12.1 tidak memuat software ini pada repositori standar. Tapi bukan berarti tidak ada paket RPM yang bisa dengan mudah anda install. OpenSUSE menyediakan paket ini pada **HA:Clustering repository**.
+Corosync merupakan bagian dari pacemaker, mirip seperti heartbeat. Fungsinya adalah sebagai *loadbalancer* dan *checker* pada *cluster environment*. OpenSUSE 12.3 tidak memuat software ini pada repositori standar. Tapi bukan berarti tidak ada paket RPM yang bisa dengan mudah anda install. OpenSUSE menyediakan paket ini pada **HA:Clustering repository**.
 
 {% highlight ruby %}
-zypper ar -f http://download.opensuse.org/repositories/network:/ha-clustering/openSUSE_12.1/ ha-clustering-openSUSE_12.1
+zypper ar -f http://download.opensuse.org/repositories/network:/ha-clustering:/Stable/openSUSE_12.3
 zypper ref -f
 zypper install pacemaker corosync
 {% endhighlight %}
@@ -19,7 +19,7 @@ Setelah selesai instalasi paket - paket beserta *dependencies*, langkah selanjut
 
 {% highlight ruby %}
 Cluster Node 1                              Cluster Node 2
-OpenSUSE 12.1                               OpenSUSE 12.1
+OpenSUSE 12.3                               OpenSUSE 12.3
 Minimal text based                          Minimal text based
 Hostname : cluster-00.techshoot.org         Hostname : cluster-01.techshoot.org
 IP : 192.168.184.20                         IP : 192.168.184.21
@@ -84,7 +84,7 @@ crm_mon -1 # command check
 
 {% highlight ruby %}
 ============
-Last updated: Fri Jun 6 07:51:20 2012
+Last updated: Tue Jan 6 07:51:20 2015
 Last change: 
 Current DC: NONE
 0 Nodes configured, unknown expected votes
@@ -122,8 +122,8 @@ Quorum merupakan storage system dari pacemaker. Karena pada tulisan ini saya han
 
 {% highlight ruby %}
 ============
-Last updated: Sat Jul  7 03:43:42 2012
-Last change: Sat Jul  7 03:40:53 2012 by root via cibadmin on cluster-00
+Last updated: Sat Jan  10 03:43:42 2015
+Last change: Sat Jan  10 03:40:53 2014 by root via cibadmin on cluster-00
 Stack: openais
 Current DC: cluster-00 - partition with quorum
 Version: 1.1.7-61a079313275f3e9d0e85671f62c721d32ce3563
