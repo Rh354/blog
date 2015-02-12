@@ -18,6 +18,7 @@ sudo apt-get remove ffmpeg x264 libx264-dev libvpx-dev librtmp0 librtmp-dev
 {% endhighlight %}
 
 **NOTE :**
+
 Jika pada saat melakukan remove jumlahnya berkisar **500 Mb** silakan di **cancel** dan hilangkan **librtmp0** dari command diatas dan jalankan kembali command diatas.
 
 Install tools yang diperlukan.
@@ -34,6 +35,7 @@ sudo apt-get install build-essential checkinstall git libfaac-dev libjack-jackd2
 {% endhighlight %}
 
 **Build dan Install YASM**
+
 Rekomendasi yasm yang digunakan adalah 1.2 ke atas, di tutorial ini yang digunakan adalah yang terakhir yaitu yasm 1.3.
 
 {% highlight ruby %}
@@ -74,6 +76,7 @@ sudo checkinstall --pkgname=yasm --pkgversion="1.3.0" --backup=no \
 {% endhighlight %}
 
 **Build dan Install CMAKE**
+
 Rekomendasi cmake yang digunakan adalah minimal 2.8.8 ke atas, di tutorial ini yang digunakan adalah yang terakhir yaitu cmake 3.1.2.
 
 {% highlight ruby %}
@@ -348,14 +351,14 @@ maka hasilnya
 
 {% highlight ruby %}
 libavutil      	54. 18.100 / 54. 18.100
-  libavcodec   	56. 21.102 / 56. 21.102
-  libavformat  	56. 19.101 / 56. 19.101
-  libavdevice  	56.  4.100 / 56.  4.100
-  libavfilter    5. 10.100 /  5. 10.100
-  libswscale     3.  1.101 /  3.  1.101
-  libswresample  1.  1.100 /  1.  1.100
-  libpostproc  	53.  3.100 / 53.  3.100
- DEV.L. hevc   	H.265 / HEVC (High Efficiency Video Coding) (encoders: libx265 )
+libavcodec   	56. 21.102 / 56. 21.102
+libavformat  	56. 19.101 / 56. 19.101
+libavdevice  	56.  4.100 / 56.  4.100
+libavfilter    	 5. 10.100 /  5. 10.100
+libswscale     	 3.  1.101 /  3.  1.101
+libswresample  	 1.  1.100 /  1.  1.100
+libpostproc  	53.  3.100 / 53.  3.100
+DEV.L. hevc   	H.265 / HEVC (High Efficiency Video Coding) (encoders: libx265 )
 {% endhighlight %}
 
 selamat x265/HEVC sudah terinstall di ubuntu anda
