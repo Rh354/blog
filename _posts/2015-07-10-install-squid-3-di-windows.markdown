@@ -13,9 +13,9 @@ Tutorial ini dibuat untuk keperluan pribadi dengan seadanya saja jadi mohon di m
 
 Langkah - langkahnya adalah :
 
-1. Download squid 3 dari link berikut [http://squid.diladele.com/](http://squid.diladele.com/)
+1. Download squid 3 dari link berikut [http://squid.diladele.com/](http://squid.diladele.com/) (saat ini yang disupport oleh mereka adalah 64bit)
 2. Download file ssl dan sertifikat yang nantinya akan di gunakan di squid melalui link berikut [https://db.tt/6dZ3Oy65](https://db.tt/6dZ3Oy65)
-3. Install seperti biasa msi file squid tadi. (kalau sudah terinstall nanti akan muncul shortcut squid tray di desktop)
+3. Install seperti biasa msi file squid tadi dengan pemilihan pathnya adalah `C:\squid`. cara install ada di link berikut [http://docs.diladele.com/tutorials/installing_squid_windows/index.html](http://docs.diladele.com/tutorials/installing_squid_windows/index.html) (kalau sudah terinstall nanti akan muncul shortcut squid tray di desktop) 
 4. extract file zip ssl dan sertifikat yang telah di download sebelumnya maka akan ada 2 file yaitu **myCA.der** dan **myCA.pem** dan ada di dalam folder `ssl_cert`. 
 5. Kopi folder tersebut ke dalam `C:\squid\etc\squid` sehingga menjadi `C:\squid\etc\squid\ssl_cert`
 6. kopi dan paste squid.conf di bawah ini
