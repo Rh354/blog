@@ -74,6 +74,8 @@ untuk cara import ada di link berikut
 
 **chrome**	: [https://wiki.wmtransfer.com/projects/webmoney/wiki/Installing_root_certificate_in_Google_Chrome](https://wiki.wmtransfer.com/projects/webmoney/wiki/Installing_root_certificate_in_Google_Chrome)
 
+Pastikan saat diimport harus di posisi **root authorities**
+
 lalu tes buka link https seharusnya verifiednya udah berubah seperti contoh berikut
 
 ![sertifikat browser](http://s6.postimg.org/ovzhmwhmp/verified.png)
