@@ -48,7 +48,7 @@ C:\Squid\lib\squid\ssl_crtd.exe -c -s C:\Squid\var\ssl_db\certs
 
 Klik kanan - properties folder instalasi squid dan pastikan permission seluruh user di bagian security untuk folder tersebut read write atau full control.
 
-lalu untuk membuat directory squid maka ketik command berikut
+buat folder `squid3cache` di drive D lalu ketik command berikut
 
 {% highlight ruby %}
 squid -z
